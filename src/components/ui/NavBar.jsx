@@ -41,7 +41,7 @@ const NavBar = () => (
       </div>
     </div>
 
-    <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end">
       <ul className="navbar-nav ml-auto">
         <NavLink
           activeClassName="active"

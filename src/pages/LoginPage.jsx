@@ -1,6 +1,9 @@
 import React from 'react'
+import { useHistory } from 'react-router'
 
-const LoginPage = ({ history }) => {
+const LoginPage = () => {
+  const history = useHistory()
+
   const handleLogin = () => {
     history.replace("/")
   }

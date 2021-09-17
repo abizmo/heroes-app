@@ -14,5 +14,16 @@ En esta sección aún no haremos protección de rutas, pero dejaremos el estilo 
 
 Aquí quiero enfocarme en la funcionalidad de la aplicación suponiendo que estamos autenticados.
 
+## Section 15: Protección de rutas
+### ¿Qué veremos en esta sección?
+- Rutas públicas
+- Rutas privadas
+- Login y logout - Sin backend aún
+- Recordar cuál fue la última ruta visitada para mejorar la experiencia de usuario.
+- Context
+- Reducer
+
+Esta es una sección pequeña pero importante para trabajar las bases de la autenticación y protección de nuestra aplicación.
+
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -9,6 +9,7 @@ import NavBar from "../components/ui/NavBar"
 import DCPage from "../pages/DCPage"
 import HeroesPage from "../pages/HeroesPage"
 import MarvelPage from "../pages/MarvelPage"
+import SearchPage from "../pages/SearchPage"
 
 const HeroesRouter = () => (
   <div>
@@ -17,6 +18,7 @@ const HeroesRouter = () => (
       <Route path="/dc" component={DCPage} />
       <Route path="/heroes/:heroId" component={HeroesPage} />
       <Route path="/marvel" component={MarvelPage} />
+      <Route path="/search" component={SearchPage} />
       <Redirect to="/marvel" />
     </Switch>
   </div>

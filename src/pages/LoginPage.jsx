@@ -9,13 +9,15 @@ const LoginPage = () => {
 
   const handleLogin = (evt) => {
     evt.preventDefault();
+    const path = localStorage.getItem('lastPath') || '/'
+
     dispatch({
       type: LOGIN,
       payload: {
         username: 'Goccita'
       },
     })
-    history.replace("/")
+    history.replace(path)
   }
 
   return (

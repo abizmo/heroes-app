@@ -25,5 +25,17 @@ Aquí quiero enfocarme en la funcionalidad de la aplicación suponiendo que esta
 
 Esta es una sección pequeña pero importante para trabajar las bases de la autenticación y protección de nuestra aplicación.
 
+## Section 16: Pruebas de nuestra aplicación Heroes
+### ¿Qué veremos en esta sección?
+- Nuevos tipos de pruebas
+- Pruebas en rutas privadas y públicas
+- MemoryRouter
+- Pruebas en nuestro DashboardRouter
+- Pruebas en el AppRouter
+- Simular URLs y segmentos
+- Simular queryParams y queryStrings
+
+Recuerden que el objetivo de las pruebas, es ir probando cosas nuevas cada vez y tener un repertorio completo de diferentes casos.
+
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

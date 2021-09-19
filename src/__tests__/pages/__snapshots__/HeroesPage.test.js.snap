@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroesPage tests should render and match snapshot 1`] = `
+<div
+  className="container py-5"
+>
+  <div
+    className="row animate__animated animate__fadeIn"
+  >
+    <div
+      className="col-md-5"
+    >
+      <img
+        alt="Wolverine"
+        className="img-fluid rounded-start"
+        src="../assets/heroes/marvel-wolverine.jpg"
+      />
+    </div>
+    <div
+      className="col-md-7"
+    >
+      <h2
+        className="featurette-heading mb-5"
+      >
+        Wolverine
+      </h2>
+      <ul
+        className="list-group list-group-flush mb-4"
+      >
+        <li
+          className="list-group-item"
+        >
+          <b>
+            Alter ego: 
+          </b>
+          James Howlett
+        </li>
+        <li
+          className="list-group-item"
+        >
+          <b>
+            Publisher: 
+          </b>
+          Marvel Comics
+        </li>
+        <li
+          className="list-group-item"
+        >
+          <b>
+            First appearance: 
+          </b>
+          The Incredible Hulk #180
+        </li>
+      </ul>
+      <h5
+        className="featurette-heading text-muted"
+      >
+        Characters
+      </h5>
+      <p
+        className="lead mb-5"
+      >
+        James Howlett
+      </p>
+      <button
+        className="btn btn-secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        Back
+      </button>
+    </div>
+  </div>
+</div>
+`;
